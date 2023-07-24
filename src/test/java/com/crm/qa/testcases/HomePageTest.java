@@ -54,6 +54,6 @@ public class HomePageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		driver.quit();
+		driver.quit();  // close browser this is to verify change in DealsPageBranch, GIT master/branch concept learn
 	}
 }
